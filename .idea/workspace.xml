@@ -26,13 +26,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b1cff687-3d57-4a6b-a350-4b261183b9b9" name="Default Changelist" comment="dzzx">
-      <change afterPath="$PROJECT_DIR$/src/dz6/Cinema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz6/Days.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz6/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz6/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz6/Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz6/Seance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/dz6/Time.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -215,7 +208,7 @@
       <workItem from="1610693117024" duration="13898000" />
       <workItem from="1610732505194" duration="9107000" />
       <workItem from="1610786674232" duration="18723000" />
-      <workItem from="1610873940807" duration="11144000" />
+      <workItem from="1610873940807" duration="12384000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1607444233426</created>
@@ -266,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610885164257</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="dzzx">
+      <created>1610887123294</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610887123294</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,10 +405,10 @@
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607688363769" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607283439832" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610885928710">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1610887153345">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610885928710" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610887153345" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607537672804" />
     <state x="458" y="97" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1610885722410">
       <screen x="0" y="0" width="1366" height="728" />
