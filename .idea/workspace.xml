@@ -25,9 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b1cff687-3d57-4a6b-a350-4b261183b9b9" name="Default Changelist" comment="test1">
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOkten/dz3/Magazine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaOkten/dz3/Magazine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/dz3/Magazine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/dz3/Magazine.java" afterDir="false" />
+    <list default="true" id="b1cff687-3d57-4a6b-a350-4b261183b9b9" name="Default Changelist" comment="dz">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOkten/dz5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaOkten/dz5/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +37,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -59,6 +59,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
@@ -73,13 +74,13 @@
       <recent name="C:\Users\Admin\Desktop\Jun-Jun\Java\JavaOkten\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Les4.Main" />
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dz8.Main" />
       <module name="JavaOkten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Les4.*" />
+          <option name="PATTERN" value="dz8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,11 +89,11 @@
       </method>
     </configuration>
     <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dz4.Main" />
+      <option name="MAIN_CLASS_NAME" value="dz6.Main" />
       <module name="JavaOkten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dz4.*" />
+          <option name="PATTERN" value="dz6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,11 +102,11 @@
       </method>
     </configuration>
     <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pr4.Main" />
+      <option name="MAIN_CLASS_NAME" value="Les7.Main" />
       <module name="JavaOkten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Pr4.*" />
+          <option name="PATTERN" value="Les7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +115,11 @@
       </method>
     </configuration>
     <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Les5.Main" />
+      <option name="MAIN_CLASS_NAME" value="dz7.Main" />
       <module name="JavaOkten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Les5.*" />
+          <option name="PATTERN" value="dz7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,11 +128,11 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dz5.Main" />
+      <option name="MAIN_CLASS_NAME" value="Les8.Main" />
       <module name="JavaOkten" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="dz5.*" />
+          <option name="PATTERN" value="Les8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,34 @@
       <workItem from="1608105362376" duration="20038000" />
       <workItem from="1608232050975" duration="8618000" />
       <workItem from="1608276946339" duration="4639000" />
-      <workItem from="1608287401437" duration="1326000" />
+      <workItem from="1608287401437" duration="9394000" />
+      <workItem from="1608310028095" duration="4073000" />
+      <workItem from="1608359327754" duration="13933000" />
+      <workItem from="1608637773925" duration="1908000" />
+      <workItem from="1608709478927" duration="20650000" />
+      <workItem from="1608799658933" duration="16006000" />
+      <workItem from="1608979348957" duration="1237000" />
+      <workItem from="1609060764746" duration="7111000" />
+      <workItem from="1609162101942" duration="8238000" />
+      <workItem from="1609315405128" duration="7400000" />
+      <workItem from="1609572800632" duration="9602000" />
+      <workItem from="1609659234794" duration="15001000" />
+      <workItem from="1609742786547" duration="18916000" />
+      <workItem from="1609831419605" duration="2930000" />
+      <workItem from="1609844096421" duration="13355000" />
+      <workItem from="1609924122312" duration="7590000" />
+      <workItem from="1609949765040" duration="1924000" />
+      <workItem from="1610006571520" duration="9529000" />
+      <workItem from="1610090793132" duration="5056000" />
+      <workItem from="1610179524426" duration="7054000" />
+      <workItem from="1610267898143" duration="15580000" />
+      <workItem from="1610364904655" duration="14378000" />
+      <workItem from="1610473846981" duration="1950000" />
+      <workItem from="1610528269771" duration="1174000" />
+      <workItem from="1610693117024" duration="13898000" />
+      <workItem from="1610732505194" duration="9107000" />
+      <workItem from="1610786674232" duration="18723000" />
+      <workItem from="1610873940807" duration="9167000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1607444233426</created>
@@ -211,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608135249536</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dz">
+      <created>1608288805545</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608288805545</updated>
+    </task>
+    <task id="LOCAL-00006" summary="dz">
+      <created>1608288964473</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608288964473</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,26 +287,42 @@
     <MESSAGE value="new" />
     <MESSAGE value="java2" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="dz" />
+    <option name="LAST_COMMIT_MESSAGE" value="dz" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1800" y="60" key="#Inspections" timestamp="1610188386171">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608719567299" />
+    <state x="1800" y="60" key="#Inspections/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610188386171" />
     <state x="568" y="226" width="465" height="485" key="#Notifications" timestamp="1608135756724">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="568" y="226" width="465" height="485" key="#Notifications/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608135756724" />
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1608133374611">
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser" timestamp="1610792250129">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608133374611" />
+    <state x="406" y="-967" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/-280.-1080.1920.1040@-280.-1080.1920.1040" timestamp="1609608690978" />
+    <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610792250129" />
+    <state x="2052" y="113" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610281036690" />
     <state x="488" y="79" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1607603599240" />
-    <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1607878151122">
+    <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1610884590911">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607878151122" />
+    <state x="466" y="258" width="433" height="218" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610884590911" />
+    <state x="479" y="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1610814443452">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="479" y="270" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610814443452" />
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1608107591591">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="110" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608107591591" />
+    <state x="129" y="54" key="DiffContextDialog" timestamp="1608288856189">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="54" key="DiffContextDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608288856189" />
     <state x="410" y="105" key="FileChooserDialogImpl" timestamp="1607508794568">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -278,69 +336,121 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="442" y="61" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1607508994243" />
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom" timestamp="1608287753535">
+    <state width="1323" height="170" key="GridCell.Tab.0.bottom" timestamp="1610884261801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608287753535" />
-    <state width="1323" height="175" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1608244941019" />
-    <state width="1323" height="175" key="GridCell.Tab.0.center" timestamp="1608287753534">
+    <state width="1323" height="170" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610884261801" />
+    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610746842210" />
+    <state width="1323" height="187" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1610725195639" />
+    <state width="1323" height="170" key="GridCell.Tab.0.center" timestamp="1610884261801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608287753534" />
-    <state width="1323" height="175" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1608244941018" />
-    <state width="1323" height="175" key="GridCell.Tab.0.left" timestamp="1608287753533">
+    <state width="1323" height="170" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610884261801" />
+    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610746842209" />
+    <state width="1323" height="187" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1610725195638" />
+    <state width="1323" height="170" key="GridCell.Tab.0.left" timestamp="1610884261800">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608287753533" />
-    <state width="1323" height="175" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1608244941018" />
-    <state width="1323" height="175" key="GridCell.Tab.0.right" timestamp="1608287753534">
+    <state width="1323" height="170" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610884261800" />
+    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610746842209" />
+    <state width="1323" height="187" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1610725195638" />
+    <state width="1323" height="170" key="GridCell.Tab.0.right" timestamp="1610884261801">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608287753534" />
-    <state width="1323" height="175" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1608244941019" />
-    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1607444755524">
+    <state width="1323" height="170" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610884261801" />
+    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610746842210" />
+    <state width="1323" height="187" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1610725195638" />
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom" timestamp="1610307486304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610307486304" />
+    <state width="1877" height="345" key="GridCell.Tab.1.bottom/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610270993130" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1607444755524" />
-    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1607444755524">
+    <state width="1877" height="345" key="GridCell.Tab.1.center" timestamp="1610307486304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610307486304" />
+    <state width="1877" height="345" key="GridCell.Tab.1.center/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610270993129" />
     <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1607444755524" />
-    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1607444755524">
+    <state width="1877" height="345" key="GridCell.Tab.1.left" timestamp="1610307486303">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610307486303" />
+    <state width="1877" height="345" key="GridCell.Tab.1.left/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610270993129" />
     <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1607444755524" />
-    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1607444755524">
+    <state width="1877" height="345" key="GridCell.Tab.1.right" timestamp="1610307486304">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610307486304" />
+    <state width="1877" height="345" key="GridCell.Tab.1.right/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610270993129" />
     <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1607444755524" />
     <state x="184" y="0" key="SettingsEditor" timestamp="1607688363769">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607688363769" />
     <state x="184" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1607283439832" />
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1608135702920">
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2" timestamp="1608288980928">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608135702920" />
+    <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608288980928" />
     <state x="275" y="96" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1607537672804" />
-    <state x="458" y="97" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1608135269227">
+    <state x="458" y="97" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1608288943767">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="458" y="97" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608135269227" />
+    <state x="458" y="97" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1608288943767" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607794430159">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607794430159" />
     <state x="492" y="277" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1607444390208" />
-    <state x="339" y="162" key="run.anything.popup" timestamp="1607366339918">
+    <state x="1807" y="184" width="1050" height="518" maximized="true" key="dock-window-1" timestamp="1610825232595">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1807" y="184" width="1050" height="518" maximized="true" key="dock-window-1/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610825232595" />
+    <state x="-3" y="12" width="1382" height="726" key="dock-window-1/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610736645600" />
+    <state x="-8" y="-8" width="1382" height="784" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1610725196094" />
+    <state x="0" y="0" width="1188" height="723" maximized="true" key="dock-window-2" timestamp="1609778301360">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="0" y="0" width="1188" height="723" maximized="true" key="dock-window-2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1609778301360" />
+    <state x="491" y="196" key="extract.method.dialog" timestamp="1610797848835">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="491" y="196" key="extract.method.dialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610797848835" />
+    <state x="2056" y="280" key="extract.method.dialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610708663354" />
+    <state x="2032" y="277" key="refactoring.ChangeSignatureDialog" timestamp="1610180099604">
+      <screen x="1366" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2032" y="277" key="refactoring.ChangeSignatureDialog/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610180099604" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1609178625708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1609178625708" />
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1607366339918" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1607777696288">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1610797251903">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1607777696288" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1610797251903" />
+    <state x="1852" y="70" width="945" height="969" key="search.everywhere.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1610737935953" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1607516168362" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/dz6/Schedule.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/dz6/Schedule.java</url>
+          <line>17</line>
+          <properties class="dz6.Schedule" method="addSeance">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
