@@ -14,12 +14,14 @@ public class Schedule {
     public Schedule() {
         this.seance = new TreeSet<>();
 
-           }
-public void addSeance (Seance sean) {
+    }
+
+    public void addSeance(Seance sean) {
         seance.add(sean);
 
-}
-    public void removeSeance (Seance sean) {
+    }
+
+    public void removeSeance(Seance sean) {
         seance.remove(sean);
     }
 

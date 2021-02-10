@@ -13,8 +13,8 @@ public class Main {
 
         Princ princ = new Princ(40);
 
-        for (Popelushka pop: popelushkas){
-            if(pop.getSize() == princ.getShoe()){
+        for (Popelushka pop : popelushkas) {
+            if (pop.getSize() == princ.getShoe()) {
                 System.out.println(pop.getName() + " you win!!!");
             }
         }

@@ -1,4 +1,5 @@
 package dz4;
+
 //1. Створити енум, який містить розміри одягу (XXS, XS, S, M, L).
 //        Написати в ньому абстрактий метод getDescription.
 //        Оверрайднути метод getDescription для всіх об'єктів енума,
@@ -17,16 +18,17 @@ package dz4;
 public class Main {
     public static void main(String[] args) {
 
-Atelier atelier = new Atelier();
+        Atelier atelier = new Atelier();
 
         for (Clothing clothing : atelier.clothing) {
-if (clothing instanceof MenClothing){
-    System.out.println(clothing);
-}
+            if (clothing instanceof MenClothing) {
+                System.out.println(clothing);
+            }
             for (Clothing clothing1 : atelier.clothing) {
                 if (clothing1 instanceof WomenClothing) {
                     System.out.println(clothing1);
                 }
             }
-    }}
+        }
+    }
 }

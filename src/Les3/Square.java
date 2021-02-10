@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Data
-public class Square extends GeometricFigure{
+public class Square extends GeometricFigure {
     @Override
     public void paint() {
         System.out.println("Square is painted");
@@ -19,6 +19,7 @@ public class Square extends GeometricFigure{
     }
 
     private int a;
+
     @Override
     public int calculatePerimeter() {
         return a * 4;

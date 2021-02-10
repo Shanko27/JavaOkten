@@ -9,12 +9,11 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Magazine  implements Printable {
-
+public class Magazine implements Printable {
 
 
     int id;
-     String name;
+    String name;
 
 
     @Override
@@ -23,12 +22,13 @@ public class Magazine  implements Printable {
         System.out.println(id + " " + name);
 
     }
-    public static void printMagazines(List<Printable> printables){
+
+    public static void printMagazines(List<Printable> printables) {
         for (Printable printable : printables) {
-            if(printable instanceof Magazine) {
+            if (printable instanceof Magazine) {
                 System.out.println(((Magazine) printable).name);
             }
-                    }
+        }
 
     }
 }

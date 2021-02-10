@@ -39,7 +39,8 @@ public class Developer {
                 ", skills=" + skills +
                 '}';
     }
-    public void work (){
+
+    public void work() {
 
     }
 }

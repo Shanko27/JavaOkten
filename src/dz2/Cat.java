@@ -9,7 +9,7 @@ import lombok.ToString;
 @Setter
 @Getter
 @ToString
-public class Cat extends Animal{
+public class Cat extends Animal {
     private String woolLenght;
     private String temperament;
 

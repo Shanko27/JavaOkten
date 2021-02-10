@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Truba  implements  Instrument{
+public class Truba implements Instrument {
     int diametr;
 
     @Override

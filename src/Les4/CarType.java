@@ -3,19 +3,19 @@ package Les4;
 import Les3.Paintable;
 
 public enum CarType implements Paintable {
-    SEDAN("sedan"){
+    SEDAN("sedan") {
         @Override
         public void paint() {
             System.out.println(this.getUkrainianTranslatoin() + "фарбуємо у білий колір");
         }
     },
-    SUV("krosover"){
+    SUV("krosover") {
         @Override
         public void paint() {
             System.out.println(this.getUkrainianTranslatoin() + "фарбуємо у синій колір");
         }
     },
-    HATCHBACK("hetchback"){
+    HATCHBACK("hetchback") {
         @Override
         public void paint() {
             System.out.println(this.getUkrainianTranslatoin() + "фарбуємо у червоний колір");
@@ -24,7 +24,7 @@ public enum CarType implements Paintable {
 
     private String ukrainianTranslatoin;
 
-    private CarType(String ukrainianTranslatoin){
+    private CarType(String ukrainianTranslatoin) {
         this.ukrainianTranslatoin = ukrainianTranslatoin;
     }
 

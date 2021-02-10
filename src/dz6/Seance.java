@@ -5,29 +5,31 @@ import lombok.*;
 
 import java.time.Duration;
 import java.time.LocalTime;
+
 @NoArgsConstructor
 @EqualsAndHashCode
 @Getter
 @ToString
 
-public class Seance implements Comparable<Seance>{
- private    Movie movie;
-   private Time start;
+public class Seance implements Comparable<Seance> {
+    private Movie movie;
+    private Time start;
     private Time end;
 
-    public LocalTime stTime() {LocalTime startT = LocalTime.of(start.getHour(),start.getMin());
-    return startT;}
+    public LocalTime stTime() {
+        LocalTime startT = LocalTime.of(start.getHour(), start.getMin());
+        return startT;
+    }
 
 
-public LocalTime enTime() {
+    public LocalTime enTime() {
 
-    LocalTime durationT = LocalTime.of(movie.getDuration().getHour(),movie.getDuration().getMin());
-    LocalTime mEndTime = stTime().plusMinutes(durationT.getMinute());
-    LocalTime endTime = mEndTime.plusHours(durationT.getHour());
-    return endTime;
+        LocalTime durationT = LocalTime.of(movie.getDuration().getHour(), movie.getDuration().getMin());
+        LocalTime mEndTime = stTime().plusMinutes(durationT.getMinute());
+        LocalTime endTime = mEndTime.plusHours(durationT.getHour());
+        return endTime;
 
-}
-
+    }
 
 
     public Seance(Movie movie, Time start, Time end) {
@@ -45,15 +47,15 @@ public LocalTime enTime() {
     }
 
     public void setEnd() {
-        this.end = new Time(enTime().getHour(),enTime().getMinute());
+        this.end = new Time(enTime().getHour(), enTime().getMinute());
     }
 
     @Override
     public int compareTo(Seance o) {
-int time = this.stTime().compareTo(o.stTime());
-if (time != 0){
-    return time;
-}
+        int time = this.stTime().compareTo(o.stTime());
+        if (time != 0) {
+            return time;
+        }
         return 0;
     }
 }

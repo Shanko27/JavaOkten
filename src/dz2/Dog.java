@@ -9,9 +9,9 @@ import lombok.ToString;
 @Getter
 @Setter
 @ToString
-public class Dog extends Animal{
-private String size;
-private String dogBreeds;
+public class Dog extends Animal {
+    private String size;
+    private String dogBreeds;
 
     @Override
     public String makeNoise() {
@@ -20,7 +20,7 @@ private String dogBreeds;
 
     @Override
     public String eat() {
-        return "Dog " +super.eat();
+        return "Dog " + super.eat();
     }
 
     @Override

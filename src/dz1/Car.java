@@ -8,12 +8,12 @@ import lombok.*;
 @Getter
 @Setter
 public class Car {
-int power;
-  double  Engine;
-  String model;
-  String country;
-  int door;
-  String fuel;
-  int seats;
+    int power;
+    double Engine;
+    String model;
+    String country;
+    int door;
+    String fuel;
+    int seats;
 
 }

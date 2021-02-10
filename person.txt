@@ -1,0 +1,2 @@
+1 Igor 25 1995-09-24 Poltava
+2 Oksana 20 2000-03-20 Kyiv

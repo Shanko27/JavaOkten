@@ -32,7 +32,7 @@ public class Main {
         System.out.println(dev);
 
         ArrayList<String> skill = new ArrayList<>();
-skill.add("html");
+        skill.add("html");
         skill.add("css");
         skill.add("java");
         Developer developer = new Developer("kolia", skill);

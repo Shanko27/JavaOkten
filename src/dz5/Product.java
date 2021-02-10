@@ -9,10 +9,9 @@ import lombok.NoArgsConstructor;
 @Data
 public class Product {
     int id;
-String name;
-int price = 0;
-Enum Type;
-
+    String name;
+    int price = 0;
+    Enum Type;
 
 
 }

@@ -8,18 +8,19 @@ public class Person {
     private int id;
     private String name;
 
-    public void saySmth(String smth){
+    public void saySmth(String smth) {
         System.out.println(smth);
-          System.out.println(smth);
-            System.out.println(smth);
+        System.out.println(smth);
+        System.out.println(smth);
     }
-     public String combine (){
+
+    public String combine() {
         return id + ": " + name;
-     }
+    }
 
-     public Person(){
+    public Person() {
 
-     }
+    }
 
     public Person(int id, String name) {
         this.id = id;

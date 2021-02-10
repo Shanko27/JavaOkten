@@ -2,8 +2,9 @@ package Les1;
 
 import java.util.ArrayList;
 
-public class SuperDev extends Developer{
+public class SuperDev extends Developer {
     private int age;
+
     public SuperDev() {
     }
 

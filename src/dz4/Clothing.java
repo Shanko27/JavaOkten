@@ -12,7 +12,6 @@ public abstract class Clothing {
     private String color;
 
 
-
     public Clothing(Size size, int price, String color) {
         this.size = size;
         this.price = price;

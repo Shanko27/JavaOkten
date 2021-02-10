@@ -32,7 +32,7 @@
 //        Там де потрібно, зробити compareTo(). Маєте якісь власні ідеї для розробки - будь-ласка.
 //        Це моделювання роботи кінотеатру, тому все що наблизить програму до реальності вітається.
 
-        package dz6;
+package dz6;
 
 
 import java.time.LocalTime;
@@ -45,28 +45,28 @@ public class Main {
 
     public static void main(String[] args) {
 
-      Time sTime1 =  new Time(11,20);
-        Time sTime2 =  new Time(12,30);
-        Time sTime3 =  new Time(13,40);
-        Time sTime4 =  new Time(14,50);
-        Time sTime5 =  new Time(15,0);
-        Time sTime6 =  new Time(16,10);
-        Time sTime7 =  new Time(17,20);
-        Time sTime8 =  new Time(66,66);
-        Time oTime =  new Time(10,40);
-        Time cTime =  new Time(20,50);
+        Time sTime1 = new Time(11, 20);
+        Time sTime2 = new Time(12, 30);
+        Time sTime3 = new Time(13, 40);
+        Time sTime4 = new Time(14, 50);
+        Time sTime5 = new Time(15, 0);
+        Time sTime6 = new Time(16, 10);
+        Time sTime7 = new Time(17, 20);
+        Time sTime8 = new Time(66, 66);
+        Time oTime = new Time(10, 40);
+        Time cTime = new Time(20, 50);
 
 
-        Time duration1 =  new Time(1,0);
-        Time duration2 =  new Time(1,0);
-        Time duration3 =  new Time(1,0);
-        Time duration4 =  new Time(1,0);
-        Time duration5 =  new Time(1,0);
-        Time duration6 =  new Time(1,0);
-        Time duration7 =  new Time(1,0);
-        Time duration8 =  new Time(1,0);
-        Time duration9 =  new Time(1,0);
-        Time duration0 =  new Time(1,0);
+        Time duration1 = new Time(1, 0);
+        Time duration2 = new Time(1, 0);
+        Time duration3 = new Time(1, 0);
+        Time duration4 = new Time(1, 0);
+        Time duration5 = new Time(1, 0);
+        Time duration6 = new Time(1, 0);
+        Time duration7 = new Time(1, 0);
+        Time duration8 = new Time(1, 0);
+        Time duration9 = new Time(1, 0);
+        Time duration0 = new Time(1, 0);
 
 
         Movie movie1 = new Movie("film1", duration1);
@@ -76,32 +76,32 @@ public class Main {
         Movie movie5 = new Movie("film5", duration5);
 
 
-Seance seance1 = new Seance(movie1,sTime1,sTime1);
-      Seance seance2 = new Seance(movie2,sTime2,sTime1);
-      Seance seance3 = new Seance(movie3,sTime3,sTime1);
-      Seance seance4 = new Seance(movie4,sTime4,sTime1);
-        Seance seance5 = new Seance(movie5,sTime5,sTime1);
+        Seance seance1 = new Seance(movie1, sTime1, sTime1);
+        Seance seance2 = new Seance(movie2, sTime2, sTime1);
+        Seance seance3 = new Seance(movie3, sTime3, sTime1);
+        Seance seance4 = new Seance(movie4, sTime4, sTime1);
+        Seance seance5 = new Seance(movie5, sTime5, sTime1);
 
 
-      Schedule schedule1 = new Schedule();
-schedule1.addSeance(seance1);
-      schedule1.addSeance(seance2);
+        Schedule schedule1 = new Schedule();
+        schedule1.addSeance(seance1);
+        schedule1.addSeance(seance2);
 
 
 //        System.out.println(schedule1);
 
 
-        Cinema cinema = new Cinema(oTime,cTime);
-        cinema.getMDS().put(Days.MONDAY,schedule1);
+        Cinema cinema = new Cinema(oTime, cTime);
+        cinema.getMDS().put(Days.MONDAY, schedule1);
 
-cinema.addSeances(schedule1, Days.MONDAY, seance3, seance4);
+        cinema.addSeances(schedule1, Days.MONDAY, seance3, seance4);
 
         System.out.println(cinema);
-cinema.addSeance(seance5, Days.MONDAY);
+        cinema.addSeance(seance5, Days.MONDAY);
         System.out.println(cinema);
         cinema.removeMovie(movie5);
         System.out.println(cinema);
-        cinema.removeSeance(seance4,Days.MONDAY);
+        cinema.removeSeance(seance4, Days.MONDAY);
         System.out.println(cinema);
 //Cinema cinema = new Cinema();
 //Schedule schedule1 = new Schedule();

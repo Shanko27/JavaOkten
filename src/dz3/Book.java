@@ -10,8 +10,9 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 public class Book implements Printable {
-int id;
- String name;
+    int id;
+    String name;
+
     @Override
     public void print() {
         System.out.println(id + " " + name);
@@ -19,7 +20,7 @@ int id;
 
     public static void printBooks(List<Printable> printable) {
         for (Printable printables : printable) {
-            if (printables instanceof Book){
+            if (printables instanceof Book) {
                 System.out.println(((Book) printables).name);
             }
 

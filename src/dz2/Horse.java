@@ -9,9 +9,9 @@ import lombok.ToString;
 @Getter
 @Setter
 @NoArgsConstructor
-public class Horse extends Animal{
+public class Horse extends Animal {
 
-    private String  horseBreeds;
+    private String horseBreeds;
     private String workingQuality;
 
     public Horse(String food, String location, String horseBreeds, String workingQuality) {

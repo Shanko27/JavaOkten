@@ -13,8 +13,8 @@ import java.time.LocalTime;
 @NoArgsConstructor
 @Data
 public class Movie {
- private    String title;
- private Time duration;
+    private String title;
+    private Time duration;
 //public LocalTime of() {
 //    LocalTime of = LocalTime.of(this.duration.getHour(), this.duration.getMin());
 //return of;

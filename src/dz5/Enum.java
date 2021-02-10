@@ -1,5 +1,5 @@
 package dz5;
 
 public enum Enum {
-PHONE, MONITOR, TOY, CLOCK;
+    PHONE, MONITOR, TOY, CLOCK;
 }

@@ -16,9 +16,9 @@ public class Car {
         this.price = price;
         this.carType = carType;
 
-            }
+    }
 
-            public void startCar(){
+    public void startCar() {
         this.engine.startEngine();
-            }
+    }
 }

@@ -7,7 +7,7 @@ import lombok.*;
 
 @Setter
 public class Student extends Person {
-private String group;
+    private String group;
 
     public Student(int id, String name, String group) {
         super(id, name);
@@ -26,7 +26,8 @@ private String group;
         System.out.println("bla");
         super.saySmth(smth);
     }
-    public void session (){
+
+    public void session() {
         System.out.println("i now");
     }
 }

@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Data
-public class Triangel extends GeometricFigure{
+public class Triangel extends GeometricFigure {
 
     private int a;
     private int b;
@@ -23,7 +23,7 @@ public class Triangel extends GeometricFigure{
     @Override
     public int calculateSquare() {
 
-        return a * b * a/c;
+        return a * b * a / c;
     }
 
     @Override

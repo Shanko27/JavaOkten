@@ -23,7 +23,7 @@ public class User<I> {
 //    public void print(Object c){
 //        System.out.println(c);
 //    }
-    public <T> void print(T z){
+    public <T> void print(T z) {
         System.out.println(z);
     }
 }

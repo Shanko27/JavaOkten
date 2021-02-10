@@ -11,7 +11,6 @@ public class Gitar implements Instrument {
     int struna;
 
 
-
     @Override
     public void play() {
         System.out.println("играет гитара количество струн " + struna);

@@ -21,39 +21,51 @@ public class Store {
     int b;
     int s = 0;
     int z;
-    public void addProduct(Product product){
+
+    public void addProduct(Product product) {
         Pattern pattern = Pattern.compile("\\d[0-9]");
         Matcher matcher = pattern.matcher(product.name);
-       boolean mf = matcher.find();
-        if (product.price > 0 && !mf){
-            this.prod.add(product);}}
+        boolean mf = matcher.find();
+        if (product.price > 0 && !mf) {
+            this.prod.add(product);
+        }
+    }
 
-            public  void  del (Product product, String a){
-                this.prod.add(product);
-                if (product.name.equals(a)) {
-                this.prod.remove(product);}}
+    public void del(Product product, String a) {
+        this.prod.add(product);
+        if (product.name.equals(a)) {
+            this.prod.remove(product);
+        }
+    }
 
-public void up (Product product, String a){
-  if(product.Type.name() == a.toUpperCase()){
-      product.price = product.price * 2;
-      this.prod.add(product); }}
+    public void up(Product product, String a) {
+        if (product.Type.name() == a.toUpperCase()) {
+            product.price = product.price * 2;
+            this.prod.add(product);
+        }
+    }
 
     List<Product> topProd = new ArrayList<>();
-public void newArr(Product product, int b){
-    prod.add(product);
-if (product.price > b){
-    topProd.add(product);}}
 
-    public void sum (Product product, String a){
+    public void newArr(Product product, int b) {
+        prod.add(product);
+        if (product.price > b) {
+            topProd.add(product);
+        }
+    }
 
-        if(product.Type.name() == a.toUpperCase()){
+    public void sum(Product product, String a) {
+
+        if (product.Type.name() == a.toUpperCase()) {
             this.prod.add(product);
-            s = s + product.price;}}
+            s = s + product.price;
+        }
+    }
 
 
-            public void avgProd (Product product){
-                prod.add(product);
-    s = s + product.price;
-    z = s / prod.size();
-            }
+    public void avgProd(Product product) {
+        prod.add(product);
+        s = s + product.price;
+        z = s / prod.size();
+    }
 }

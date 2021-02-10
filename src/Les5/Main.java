@@ -12,8 +12,8 @@ public class Main {
         System.out.println(list.set(3, "fourth"));
         System.out.println(list);
 
-        String[] ar = new String[] {"first", "second"};
-        String[] ar1 = new String[] {"first", "second"};
+        String[] ar = new String[]{"first", "second"};
+        String[] ar1 = new String[]{"first", "second"};
         final List<String[]> strings = Arrays.asList(ar, ar1);
         System.out.println(strings);
 
@@ -33,15 +33,15 @@ public class Main {
         list1.add(new Person(3, "Anna"));
 
         for (Person person : list1) {
-            if (person.getName().startsWith("I")){
+            if (person.getName().startsWith("I")) {
                 list.remove(person);
             }
-          }
+        }
         Iterator<Person> itera = list1.iterator();
-while (itera.hasNext()){
-    Person p = itera.next();
-    itera.remove();
-}
+        while (itera.hasNext()) {
+            Person p = itera.next();
+            itera.remove();
+        }
         System.out.println(list1);
 
         Set<Person> set = new HashSet<>();

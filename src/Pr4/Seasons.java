@@ -1,34 +1,34 @@
 package Pr4;
 
 public enum Seasons {
-SUMMER("Лето",30){
-    @Override
-    public void temperatuta() {
-        System.out.println(this.getName() + this.getTemp() + " Жаркое время года");
-    }
-},
-    WINTER("Зима",-20){
+    SUMMER("Лето", 30) {
+        @Override
+        public void temperatuta() {
+            System.out.println(this.getName() + this.getTemp() + " Жаркое время года");
+        }
+    },
+    WINTER("Зима", -20) {
         @Override
         public void temperatuta() {
             System.out.println(this.getName() + this.getTemp() + " Холодное время года");
         }
     },
-    AUTUMN("Осень",10){
+    AUTUMN("Осень", 10) {
         @Override
         public void temperatuta() {
             System.out.println(this.name() + this.getTemp() + "Среднее время года");
         }
     },
-    SPRING("Весна",15){
+    SPRING("Весна", 15) {
         @Override
         public void temperatuta() {
             System.out.println(this.getName() + this.getTemp() + "Среднее время года");
         }
     };
     private String name;
-private int temp;
+    private int temp;
 
-public abstract void temperatuta();
+    public abstract void temperatuta();
 
     Seasons(String name, int temp) {
         this.name = name;

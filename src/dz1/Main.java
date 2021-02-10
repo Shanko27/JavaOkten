@@ -10,8 +10,8 @@ public class Main {
 //        Вивести результати в консоль
 
 
-        Int Int = new Int(1,2,3,4,5,6,7,8,9,10);
-int add = Int.addition();
+        Int Int = new Int(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        int add = Int.addition();
         System.out.println(add);
         int add1 = Int.subtraction();
         System.out.println(add1);
@@ -24,8 +24,8 @@ int add = Int.addition();
 //        ціле речення.
 
         Strin strin = new Strin("У ", "меня ", "была ", "собака ", "я ", "её ",
-                                "любил ", "она ", "съела ", "кусок");
-String z = strin.sentence();
+                "любил ", "она ", "съела ", "кусок");
+        String z = strin.sentence();
         System.out.println(z);
 
 
@@ -68,16 +68,16 @@ String z = strin.sentence();
         System.out.println(c);
 
         User[] d = new User[]{c1, c2, c3, c4, c5, c6, c7, c8, c9, c0};
-int s = 0;
+        int s = 0;
         double w = 0;
         double q = 0;
-     for (User user:d){
-         s += user.getAge();
-     }
-        for (User user:d){
+        for (User user : d) {
+            s += user.getAge();
+        }
+        for (User user : d) {
             w += user.getWeight();
         }
-        for (User user:d){
+        for (User user : d) {
             q += user.getHeight();
         }
         System.out.println(s);
@@ -100,8 +100,6 @@ int s = 0;
 //        Скласти між собою значення їх потужностей і вивести в консоль.
 
 
-
-
         Car v1 = new Car(625, 4.4, "bmv", "Germeni", 5, "dizel", 5);
         Car v2 = new Car(500, 5, "dodge", "USA", 4, "gas", 5);
         Car v3 = new Car(325, 3.2, "mersedes", "Germeni", 5, "dizel", 5);
@@ -110,27 +108,26 @@ int s = 0;
         Car v6 = new Car(98, 1.1, "fiat", "Espana", 3, "gas", 5);
         Car v7 = new Car(300, 3, "mazda", "Japan", 5, "dizel", 5);
         Car v8 = new Car(234, 2.4, "toyota", "Japan", 5, "gas", 5);
-        Car v9= new Car(123, 2, "renault", "France", 4, "dizel", 5);
+        Car v9 = new Car(123, 2, "renault", "France", 4, "dizel", 5);
         Car v0 = new Car(88, 1.4, "zaz", "Ukraina", 4, "gas", 5);
 
 
-int rr = v1.getPower() + v2.getPower() + v3.getPower() + v4.getPower() + v5.getPower() + v6.getPower() + v7.getPower() + v8.getPower() + v9.getPower() + v0.getPower();
+        int rr = v1.getPower() + v2.getPower() + v3.getPower() + v4.getPower() + v5.getPower() + v6.getPower() + v7.getPower() + v8.getPower() + v9.getPower() + v0.getPower();
         double uu = v1.getEngine() + v2.getEngine() + v3.getEngine() + v4.getEngine() + v5.getEngine() + v6.getEngine() + v7.getEngine() + v8.getEngine() + v9.getEngine() + v0.getEngine();
         System.out.println(rr);
         System.out.println(uu);
 
         Car[] zz = new Car[]{v1, v2, v3, v4, v5, v6, v7, v8, v9, v0};
-int cc = 0;
-double ss = 0;
-for (Car ww: zz){
-    cc+=ww.power;
-}
+        int cc = 0;
+        double ss = 0;
+        for (Car ww : zz) {
+            cc += ww.power;
+        }
         System.out.println(cc);
-        for (Car ee: zz){
-            ss+=ee.Engine;
+        for (Car ee : zz) {
+            ss += ee.Engine;
         }
         System.out.println(ss);
-
 
 
 //        7. За допомоги %, спробувати "реверснути" трьохзначне число. Приклад 412 => 214

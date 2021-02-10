@@ -2,12 +2,12 @@ package Les1;
 
 public class User {
     private long id;
-    private  int age;
+    private int age;
     private String name;
-    private  double weight;
-    private  boolean status;
+    private double weight;
+    private boolean status;
 
-    public User (){
+    public User() {
     }
 
     public User(long id, int age, String name, double weight, boolean status) {
@@ -73,14 +73,16 @@ public class User {
                 ", status=" + status +
                 '}';
     }
-    public String greeting(String msg){
+
+    public String greeting(String msg) {
         return msg + " my name is " + this.name + ", and i " + this.age + " old";
     }
-    public int rec(int n){
+
+    public int rec(int n) {
         int num1 = n / 100;
-        int num2 = (n % 100) /10;
+        int num2 = (n % 100) / 10;
         int num3 = n % 10;
 
-        return (num3*100 + num2*10 + num1);
+        return (num3 * 100 + num2 * 10 + num1);
     }
 }

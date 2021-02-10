@@ -5,11 +5,12 @@ public class ForStatic {
     static int staticA;
 
 
-    void meth (){
+    void meth() {
         staticA = 10;
         metoth();
     }
-    static void metoth(){
+
+    static void metoth() {
 
 
     }

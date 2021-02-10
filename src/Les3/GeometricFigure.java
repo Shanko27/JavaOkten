@@ -7,12 +7,12 @@ import lombok.*;
 @ToString
 @Getter
 @Setter
-public abstract class GeometricFigure implements Paintable{
+public abstract class GeometricFigure implements Paintable {
 
-private int perimeter;
-private int square;
+    private int perimeter;
+    private int square;
 
-public abstract int calculatePerimeter();
+    public abstract int calculatePerimeter();
 
     public abstract int calculateSquare();
 

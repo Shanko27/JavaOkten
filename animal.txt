@@ -1,0 +1,4 @@
+1 Sharik dog
+2 Milka cat
+3 Husk dog
+4 Nemo fish

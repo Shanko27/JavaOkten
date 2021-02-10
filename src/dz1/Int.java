@@ -20,16 +20,19 @@ public class Int {
     int a9;
     int a0;
 
-public int addition(){
+    public int addition() {
         return a1 + a2 + a3 + a4 + a5 + a6 + a7 + a8 + a9 + a0;
     }
-    public int subtraction(){
+
+    public int subtraction() {
         return a1 - a2 - a3 - a4 - a5 - a6 - a7 - a8 - a9 - a0;
     }
-    public int multiplication(){
+
+    public int multiplication() {
         return a1 * a2 * a3 * a4 * a5 * a6 * a7 * a8 * a9 * a0;
     }
-    public int division(){
+
+    public int division() {
         return a1 / a2 / a3 / a4 / a5 / a6 / a7 / a8 / a9 / a0;
     }
 }

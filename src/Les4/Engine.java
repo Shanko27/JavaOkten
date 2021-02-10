@@ -10,7 +10,7 @@ public class Engine {
     private int volume;
     private int cylinderNumber;
 
-    public void startEngine(){
+    public void startEngine() {
         System.out.println("Start");
     }
 }

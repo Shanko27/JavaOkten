@@ -16,18 +16,18 @@ public class Main {
     public static void main(String[] args) {
 
 
-
-        List<Printable>  printables = new ArrayList<>();
-        printables.add(new Book(1,"romans"));
-        printables.add(new Book(2,"history"));
-        printables.add(new Magazine(1,"cool"));
-        printables.add(new Magazine(1,"times"));
+        List<Printable> printables = new ArrayList<>();
+        printables.add(new Book(1, "romans"));
+        printables.add(new Book(2, "history"));
+        printables.add(new Magazine(1, "cool"));
+        printables.add(new Magazine(1, "times"));
 
         for (Printable print : printables) {
-            print.print(); }
+            print.print();
+        }
 
 
-Magazine.printMagazines(printables);
+        Magazine.printMagazines(printables);
         Book.printBooks(printables);
 
     }

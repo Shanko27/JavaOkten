@@ -8,5 +8,5 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Princ {
-  private int shoe;
+    private int shoe;
 }

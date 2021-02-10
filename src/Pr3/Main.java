@@ -14,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
 
 
-        List<Instrument> instruments= new ArrayList<>();
+        List<Instrument> instruments = new ArrayList<>();
 
         instruments.add(new Gitar(5));
         instruments.add(new Dram("XL"));

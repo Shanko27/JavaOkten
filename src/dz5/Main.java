@@ -22,15 +22,15 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-Store store = new Store();
-Product[] products = new Product[]  {new Product(1, "Rolex", 5000, Enum.CLOCK),
-        new Product(2, "Casio", 400, Enum.CLOCK),
-        new Product(3, "Dell", 6000, Enum.MONITOR),
-        new Product(4, "Lenovo", 4000, Enum.MONITOR),
-        new Product(5, "Samsung", 7000, Enum.PHONE),
-        new Product(6, "Nokia", 300, Enum.PHONE),
-        new Product(7, "Bear", 50, Enum.TOY),
-        new Product(8, "Mouse", 120, Enum.TOY)};
+        Store store = new Store();
+        Product[] products = new Product[]{new Product(1, "Rolex", 5000, Enum.CLOCK),
+                new Product(2, "Casio", 400, Enum.CLOCK),
+                new Product(3, "Dell", 6000, Enum.MONITOR),
+                new Product(4, "Lenovo", 4000, Enum.MONITOR),
+                new Product(5, "Samsung", 7000, Enum.PHONE),
+                new Product(6, "Nokia", 300, Enum.PHONE),
+                new Product(7, "Bear", 50, Enum.TOY),
+                new Product(8, "Mouse", 120, Enum.TOY)};
 
         for (Product product : products) {
             store.addProduct(product);
@@ -54,8 +54,9 @@ Product[] products = new Product[]  {new Product(1, "Rolex", 5000, Enum.CLOCK),
         System.out.println("Top product " + store.topProd);
 
 
-                for (Product product : products) {
-            store.sum(product, "TOY");  }
+        for (Product product : products) {
+            store.sum(product, "TOY");
+        }
         System.out.println(store.s);
 
         for (Product product : products) {
